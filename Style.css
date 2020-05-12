@@ -15,6 +15,14 @@ body {
 	margin-right: 10px;
 
 }
+.HT
+{
+	text-align:center;
+	font-size:25px;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
 .Text2{
 	text-align: center;
 	font-size: 6ex;
@@ -29,6 +37,7 @@ body {
 	margin-left: 20px;
 	margin-right: 10px;
 }
+
 
 .Bild{
 	width: 900px;
@@ -64,16 +73,13 @@ header {/*Påverkar allt inom header i html*/
 h2 {/*Påverkar allt inom h2 i html*/
 	color:white;	
 }
-.Car {/*Påverkar allt inom classen Car i html*/
-	color: White;
-	text-transform: uppercase;
-	text-decoration: none;
-	text-align: Center;
-}
 .box{/*Påverkar allt inom classen box i html*/
-	width:1880px;/*Bestämmer bredd*/
-	height:700px;
-	border:10px Solid purple;/*Får en varning som säger att bilden/rutan kan bli större än förväntat om man kombinerar width/height och border. Denna varning får jag när jag validerar min css*/
+	margin-left:25%;
+	margin-top: 2%;
+	width:50%;/*Bestämmer bredd*/
+	height:610px;
+	border-radius: 15px;
+	border:10px Solid red;/*Får en varning som säger att bilden/rutan kan bli större än förväntat om man kombinerar width/height och border. Denna varning får jag när jag validerar min css*/
 }
 .white{/*Påverkar allt inom classen white i html*/
 	background:White;/*Vit bakgrund*/
@@ -82,7 +88,9 @@ h2 {/*Påverkar allt inom h2 i html*/
 	color: red;
 }
 .info{/*Påverkar allt inom classen info i html*/
+	text-align: center;
 	color: black;
+	font-size: 50px;
 }
 .List{/*Påverkar allt inom classen List i html*/
 	color: white;
@@ -91,7 +99,8 @@ h2 {/*Påverkar allt inom h2 i html*/
 table, th, tr, td {/*Påverkar allt inom table, th, tr, td i html*/
 	border: 2px solid black;
 	border-collapse: collapse;/*Slår ihop linjerna i en tabell*/
-	width:30%;
+	width:50%;
+	margin: 25%;
 }
 caption {/*Påverkar allt inom caption i html*/
 	caption-side:top;/*Flyttar titeln på tabellen så den står över tabellen*/
@@ -101,21 +110,39 @@ caption {/*Påverkar allt inom caption i html*/
 }
 	
 tr:nth-child(2), tr:nth-child(4) {/*Påverkar kolumn 2 och 4 i tabellen*/
-	background-color: purple;
+	background-color: Red;
 	color:white;
-}
-th:nth-child(1){/*Påverkar kolumn 1 i tabellen*/
-	text-align: left;
-}
-th:nth-child(4){/*Påverkar kolumn 4 i tabellen*/
-	text-align: right;
-}
-td:nth-child(3), td:nth-child(2){/*Påverkar kolumn 3 och 2 i tabellen*/
-	text-align:center;
-}
-td:nth-child(4){/*Påverkar kolumn 4 i tabellen*/
-	text-align:right;
+	text-align: center;
 }
 tr:nth-child(3), tr:nth-child(5){/*Påverkar kolumn 3 och 5 i tabellen*/
-	background-color: lightGreen;
+	background-color:Black;
+	color: White;
+	text-align: center;
+}
+.Tabell:link { /*stylen på länkar */
+color:white;
+font-size: 20px;
+}
+
+.Tabell:visited { /*färg när du vart inne på länken en gång */
+  color: darkpurple;
+}
+.Tabell:focus { /* tab eller pil tangenterna*/
+background-color: pink;
+}
+.Tabell:hover { /* håller musen över texten*/
+  color: Green;
+}
+.Tabell:active { /* håller in musen på texten*/
+background-color:Blue;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
