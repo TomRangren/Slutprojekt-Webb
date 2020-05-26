@@ -5,8 +5,8 @@ body {
 	background-size: cover;
 }
 .column{
-  float: left;
-  width: 50%;
+	float: left;
+	width: 50%;
 }
 .Text{
 	text-align:center;
@@ -28,35 +28,45 @@ body {
 	font-size: 6ex;
 	margin: 50px;
 }
+.Text2I
+{
+	text-align: center;
+	font-size: 6ex;
+	margin: 50px;
+}
+.TextI
+{
+	text-align:center;
+	font-size:5vh;
+	margin-top: 10px;
+	margin-right: 10px;
+}
 .white-box{
 	background-color: white;
 	height: 500px;
 	border: 10px solid red;
 	border-radius: 20px;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-left: 20px;
 	margin-right: 10px;
 }
-
-
 .Bild{
 	width: 900px;
 	height:500px;
-	  	margin-top: 10%;
-		margin-left: 10px;
-		border: 10px solid red;
-			border-radius: 20px;
+	margin-top: 5%;
+	margin-left: 10px;
+	border: 10px solid red;
+	border-radius: 20px;
 }
 h1{/*Påverkar allt inom h1 i html*/
-	font-size:75px; /*Textstorlek*/
+	font-size:5em; /*Textstorlek*/
 	text-align: Center; /*Centrerar texten*/
 	color: white; /*Gör texten vit*/
 }
-
 nav li{/*Påverkar allt inom nav li i html*/
 	display: inline-block;/*Gör att det inte sker ett radbyte efter alla element vilket gör det möjligt att element kan ligga brevid varandra*/
 	margin-right: 40px;/*Bildar mellanrum mellan element*/
-        list-style-type: none;/*Inga markörer i listan*/
+    list-style-type: none;/*Inga markörer i listan*/
 }
 nav a {/*Påverkar allt inom nav a i html*/
 	color: White;
@@ -75,11 +85,11 @@ h2 {/*Påverkar allt inom h2 i html*/
 }
 .box{/*Påverkar allt inom classen box i html*/
 	margin-left:25%;
-	margin-top: 2%;
+	margin-top: 1%;
 	width:50%;/*Bestämmer bredd*/
 	height:610px;
 	border-radius: 15px;
-	border:10px Solid red;/*Får en varning som säger att bilden/rutan kan bli större än förväntat om man kombinerar width/height och border. Denna varning får jag när jag validerar min css*/
+	border:10px Solid #FF0000;/*Får en varning som säger att bilden/rutan kan bli större än förväntat om man kombinerar width/height och border. Denna varning får jag när jag validerar min css*/
 }
 .white{/*Påverkar allt inom classen white i html*/
 	background:White;/*Vit bakgrund*/
@@ -104,9 +114,8 @@ table, th, tr, td {/*Påverkar allt inom table, th, tr, td i html*/
 }
 caption {/*Påverkar allt inom caption i html*/
 	caption-side:top;/*Flyttar titeln på tabellen så den står över tabellen*/
-	font-size:30px;
+	font-size:4ex;
 	text-align:center;
-	 
 }
 	
 tr:nth-child(2), tr:nth-child(4) {/*Påverkar kolumn 2 och 4 i tabellen*/
@@ -120,29 +129,61 @@ tr:nth-child(3), tr:nth-child(5){/*Påverkar kolumn 3 och 5 i tabellen*/
 	text-align: center;
 }
 .Tabell:link { /*stylen på länkar */
-color:white;
-font-size: 20px;
+	color:white;
+	font-size: 20px;
 }
 
 .Tabell:visited { /*färg när du vart inne på länken en gång */
-  color: darkpurple;
+	color: purple;
 }
 .Tabell:focus { /* tab eller pil tangenterna*/
-background-color: pink;
+	background-color: pink;
 }
 .Tabell:hover { /* håller musen över texten*/
-  color: Green;
+	color: Green;
 }
 .Tabell:active { /* håller in musen på texten*/
-background-color:Blue;
+	background-color:Blue;
 }
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 5%;
-  background-color: red;
-  color: white;
-  text-align: center;
+.Video
+{
+	border: 1Rem Solid hsl(0,100%,50%);
+	margin-left: 625px;
+	margin-top: 100px;
+	width:515px; 
+	height:290px;
+}
+.ForumColor
+{
+	color: white;
+}
+h5
+{
+	font-size:20px;
+}
+.Made
+{
+	color:White;
+	font-size: 20px;
+	position: absolute;
+    left: 0;
+    top: 100px;
+}
+h6
+{
+	color:white;
+	font-size: 30px;
+	position: absolute;
+    left: 20px;
+    top: 2px;
+}
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 5%;
+	background-color: rgba(240, 52, 52, 1);/*Färg fast i rgba*/
+	color: white;
+	text-align: center;
 }
