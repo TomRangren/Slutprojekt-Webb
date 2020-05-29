@@ -1,0 +1,174 @@
+body {
+	background-image: url(https://i.pinimg.com/originals/2a/b7/b7/2ab7b79af099e288d39327159b014a02.jpg); /*Sätter bakgrundsbild på hemsidan*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.column{
+	float: left;
+	width: 50%;
+	margin-top: 48px;
+}
+.Text{
+	text-align:center;
+	font-size:5vh;
+	margin-top: 100px;
+	margin-right: 10px;
+
+}
+.HT
+{
+	text-align:center;
+	font-size:110%;
+	margin: 10%;
+}
+.TextI
+{
+	text-align:center;
+	font-size:50px;
+}
+.Text2, .Text2I{
+	text-align: center;
+	font-size: 5ex;
+	margin: 50px;
+}
+.white-box
+{
+	background-color: white;
+	height: 50%;
+	border: 10px solid red;
+	border-radius: 20px;
+	margin-top: 5%;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.Bild{
+	width: 900px;
+	height:458px;
+	margin-top: 5%;
+	margin-left: 10px;
+	border: 10px solid red;
+	border-radius: 20px;/*Runda hörn på bordern*/
+}
+h1{/*Påverkar allt inom h1 i html*/
+	font-size:5em; /*Textstorlek*/
+	text-align: center; /*Centrerar texten*/
+	color: white; /*Gör texten vit*/
+}
+nav li{/*Påverkar allt inom nav li i html*/
+	display: inline-block;/*Gör att det inte sker ett radbyte efter alla element vilket gör det möjligt att element kan ligga brevid varandra*/
+	margin-right: 40px;/*Bildar mellanrum mellan element*/
+    list-style-type: none;/*Inga markörer i listan*/
+}
+nav a {/*Påverkar allt inom nav a i html*/
+	color: white;
+	text-transform: uppercase;/*Gör om texten till stora bokstäver*/
+	text-decoration: none;/*Gör så att det bara står text och till exempel inga understräck*/
+	text-align: center;
+}
+header {/*Påverkar allt inom header i html*/
+	text-align:center;
+}
+.box{/*Påverkar allt inom classen box i html*/
+	margin-left:25%;
+	margin-top: 1%;
+	width:50%;/*Bestämmer bredd*/
+	height:auto;
+	border-radius:15px;
+	border:10px solid #FF0000;/*Hexa färgkod*/
+}
+.white , .white2{/*Påverkar allt inom classen white i html*/
+	background:white;/*Vit bakgrund*/
+	color:black;
+}
+.Annan {/*Påverkar allt inom classen Annan i html*/
+	color: red;
+}
+h2{/*Påverkar allt inom classen info i html*/
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+.List{/*Påverkar allt inom classen List i html*/
+	font-size: 20px;
+}
+table, th, tr, td {/*Påverkar allt inom table, th, tr, td i html*/
+	border: 2px solid black;
+	border-collapse: collapse;/*Slår ihop linjerna i en tabell*/
+	width:50%;
+	margin: 25%;
+}
+caption {/*Påverkar allt inom caption i html*/
+	caption-side:top;/*Flyttar titeln på tabellen så den står över tabellen*/
+	font-size:4ex;
+	text-align:center;
+}
+	
+tr:nth-child(2), tr:nth-child(4) {/*Påverkar kolumn 2 och 4 i tabellen*/
+	background-color: Red;
+	color:white;
+	text-align: center;
+}
+tr:nth-child(3), tr:nth-child(5){/*Påverkar kolumn 3 och 5 i tabellen*/
+	background-color:black;
+	color: white;
+	text-align: center;
+}
+.Tabell:link { /*stylen på länkar */
+	color:white;
+	font-size: 20px;
+}
+
+.Tabell:visited { /*färg när du vart inne på länken en gång */
+	color: purple;
+}
+.Tabell:focus { /* tab eller pil tangenterna*/
+	background-color: pink;
+}
+.Tabell:hover { /* håller musen över texten*/
+	color: green;
+}
+.Tabell:active { /* håller in musen på texten*/
+	background-color:blue;
+}
+.Video
+{
+	border: 0.8Rem Solid hsl(0,100%,50%);
+	border-radius: 20px;
+	margin-left: 680px;
+	margin-top: 100px;
+	width:515px; 
+	height:290px;
+}
+h2
+{
+	color: black;
+}
+.Made
+{
+	color:yellow;
+	font-size: 20px;
+	position: fixed;
+    left: 0;
+    top: 100px;
+}
+.h6 
+{
+	color:yellow;
+	font-size: 30px; 
+	position: fixed;/* Används för att flytta element*/
+    left: 20px;
+    top: 10px;
+}
+#footer 
+{
+	position: fixed;
+	left: 0%;
+	bottom: 0%;
+	margin: 0%;
+	width: 100%;
+	height: 2%;
+	background-color: rgba(240, 52, 52, 1);/*Färg fast i rgba*/
+	color: white;
+	text-align: center;
+}
