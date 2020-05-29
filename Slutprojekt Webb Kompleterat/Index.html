@@ -1,0 +1,47 @@
+<!DOCTYPE html><!--!DOCTYPE används så att webbläsaren ska kunna veta vilken version av HTML sidan använder-->
+<html lang="en"><!--html är en starttagg för sin hemsida och lang bestämmer språket på sidan-->
+	<head><!--Ligger överst i kodningen och det som står i head är det användaren inte ser-->
+		<meta charset="UTF-8"><!--En teckenkodning som fungerar för alla tecken i världen-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Bounce United</title><!--titel på sidan uppe över sök-baren-->
+		<link href="Style.css" rel="Stylesheet"> <!--Länkar sin CSS så att ändringarna gjorda i css kopplas till ens html-->
+	</head><!--Stänger kodningen inom head-->
+	<body><!--Ligger under head och det man skriver under body syns sedan på sidan-->
+		<header><!--Användning istället för main och man kan ha många headers jämfört med main. -->
+			<h1>Bounce United</h1><!--Rubrik på sidan-->
+				<nav><!--Skapar en navigations lista som är kopplade till andra html sidor-->
+					<ul><!--Används för att skapa en lista-->
+						<li><a class="Annan" href="index.html">𝅘𝅥𝅮Home𝅘𝅥𝅮</a></li><!-- Klassen Annan används till att göra texten röd på den sidan man är inne på-->
+						<li><a href="History.html">𝅘𝅥𝅮History𝅘𝅥𝅮</a></li><!--Det man skriver i li är det man vill ska vara listat i sin lista. I detta fall länkar jag till en annan html sida-->
+						<li><a href="Toplist.html">𝅘𝅥𝅮Toplist𝅘𝅥𝅮</a></li>
+						<li><a href="Instruments.html">𝅘𝅥𝅮Instruments𝅘𝅥𝅮</a></li>
+						<li><a href="Video.html">𝅘𝅥𝅮Video𝅘𝅥𝅮</a></li>
+						<li><a href="Formulär.html">𝅘𝅥𝅮Form𝅘𝅥𝅮</a></li>
+					</ul><!--Avslutar det man vill ha i listan-->
+				</nav><!--Stänger av det man ville ha i sin navigations lista-->
+		</header><!--Avslutar kodningen inom header-->
+		<main><!--specificerar sig i det viktiga innehållet på sidan-->
+			<p class="row">
+			<div class="column">
+			<div class="white-box"><!--Klassen white-box används för att stylea / göra en vit ruta bakom texten-->
+				<h2 class="Text" >What is Bounce United?</h2><!--Klassen används för att lätt kunna ändra utseendet på texten-->
+					<p class="Text2"><!--Klassen används för att lätt kunna ändra utseendet på texten-->
+					Bounce music is an energetic style of New Orleans hip
+					hop music which is said to have originated as early as 
+					the late 1980s in the city's housing projects. 
+					Popular bounce artists have included DJ Jubilee, 
+					Partners-N-Crime, Magnolia Shorty and Big Freedia.
+					</p>
+			</div>	
+			</div>
+			</p>
+			<p class="column">
+				<img class="Bild" src="https://i.ytimg.com/vi/4VPaI0s3Diw/maxresdefault.jpg" alt="Bounce United"><!--Klassen används för att lätt kunna ändra dimentionerna på bilden-->
+			</p>
+		</main><!--Avslutar det viktigaste på sidan-->
+			<p id="footer"><!--Footern är längst ner på sidan och i mitt fall visar den vem som har gjort sidan och vad den heter-->
+				®Bounce United - Tom Rangren
+			</p>
+	</body><!--Avslutar det man vill ska vara på sin hemsida-->
+</html><!--Avslutar kodningen i hemsidan-->
